@@ -1,4 +1,5 @@
 :root {
+  box-sizing: border-box;
   font-family: 'Poppins', sans-serif; /* 300, 400, 500, 600, 700 */
   color: #fff;
   background-color: #1E1E1E;
