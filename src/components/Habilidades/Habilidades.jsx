@@ -25,7 +25,7 @@ export const Habilidades = () => {
                 <div className="habilidades_icons">
                     {
                         getHabilidades(categorySelected).map(habilidad => (
-                            <HabilidadItem {...habilidad}/>
+                            <HabilidadItem key={habilidad.id} {...habilidad}/>
                         ))
                     }
                 </div>

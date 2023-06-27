@@ -1,0 +1,9 @@
+.portafolio_items_container{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
