@@ -1,5 +1,9 @@
+import { ContentLayout } from "../layout/ContentLayout"
+
 export const Portafolio = () => {
     return (
-        <div>Portafolio</div>
+        <ContentLayout>
+            <p>Portafolfffio</p>
+        </ContentLayout>
     )
 }
