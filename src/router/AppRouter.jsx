@@ -1,6 +1,6 @@
 import {Routes, Route, Navigate} from 'react-router-dom'
 import { Sobremi } from '../components/Sobremi/Sobremi'
-import { Portafolio } from '../components/portafolio/Portafolio'
+import { Portafolio } from '../components/Portafolio/Portafolio'
 import { Contacto } from '../components/Contacto/Contacto'
 
 export const AppRouter = () => {
