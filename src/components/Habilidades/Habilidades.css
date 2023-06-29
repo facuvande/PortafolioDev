@@ -59,3 +59,13 @@
         font-size: 12px;
     }
 }
+
+@media (max-width: 245px){
+    .habilidades_titles{
+        justify-content: space-around;
+    }
+    .habilidades_titles button {
+        font-size: 10px;
+        gap: 0px;
+    }
+}
