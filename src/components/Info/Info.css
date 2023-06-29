@@ -125,7 +125,8 @@
         display: flex;
         margin-bottom: 16px;
     }
-    .separator{
+    
+    .info__container .separator{
         display: none;
     }
 
