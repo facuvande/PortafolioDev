@@ -6,3 +6,10 @@
     align-content: center;
     justify-content: center;
 }
+
+
+@media (max-width: 654px){
+    .portafolio_items_container{
+        flex-direction: column;
+    }
+}

@@ -54,6 +54,7 @@
 .technologies_container {
     display: flex;
     gap: 8px;
+    margin-top: 20px;
 }
 
 .technologies_container img {
@@ -79,10 +80,19 @@ padding: 4px 8px;
 border-radius: 4px;
 white-space: nowrap;
 opacity: 0;
+margin-top: 16px;
 pointer-events: none;
 transition: opacity 0.3s ease-in-out;
 }
 
 .technology_container:hover .technology_name {
 opacity: 1;
+}
+
+@media (max-width: 654px){
+    .portafolio_item {
+        
+        width: 80%;
+        height: auto;
+    }
 }
