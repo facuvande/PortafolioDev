@@ -55,6 +55,9 @@
 }
 
 @media (max-width: 316px){
+    .habilidades_titles{
+        flex-wrap: nowrap;
+    }
     .habilidades_titles button {
         font-size: 12px;
     }
