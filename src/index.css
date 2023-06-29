@@ -5,6 +5,7 @@
   background-color: #1E1E1E;
 }
 
+
 body::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */
 }
@@ -29,4 +30,10 @@ body::-webkit-scrollbar-thumb {
   font-size: 16px;
   margin-bottom: 10px;
   font-weight: 500;
+}
+
+@media (max-width: 470px){
+  body{
+    margin: 0 auto;
+  }
 }
