@@ -1,0 +1,9 @@
+.Contact_links_container{
+    gap: 15px;
+}
+
+.Contact_links_container .fa-linkedin,.Contact_links_container .fa-github,.Contact_links_container .fa-envelope{
+    color: white;
+    font-size: 50px;
+    margin: 10px 15px;
+}

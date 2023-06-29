@@ -12,7 +12,7 @@ export const Habilidades = () => {
     }
 
     return (
-        <>
+        <> 
             <h2>Habilidades</h2>
             <div className="sobreMi_habilidades_container">
                 <div className="habilidades_titles">

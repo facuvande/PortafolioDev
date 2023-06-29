@@ -9,8 +9,8 @@ export const PortafolioItem = ({ id, title, description, technologies = [], link
             <div className="portafolio_item_up">
                 <img src={imgSrc} alt={title} />
                 <div className="links_container">
-                    <Link to={linkDeploy}>Deploy</Link>
-                    <Link to={linkGithub}>Github</Link>
+                    <Link to={linkDeploy} target="_blank">Deploy</Link>
+                    <Link to={linkGithub} target="_blank">Github</Link>
                 </div>
             </div>
             <div className="portafolio_item_down">

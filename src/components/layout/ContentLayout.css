@@ -1,5 +1,5 @@
 .content__container{
-    width: 80%;
+    width: 100%;
     margin-left: 5px;
     height: max-content;
     padding-bottom: 45px;
@@ -12,4 +12,11 @@
     display: inline-block;
     border-bottom: 4px solid #FFDB70;
     border-radius: 4px;
+}
+
+@media (max-width: 836px){
+    .content__container{
+        width: 100%;
+        margin-left: 0px;
+    }
 }

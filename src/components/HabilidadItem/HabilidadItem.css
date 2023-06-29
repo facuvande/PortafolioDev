@@ -1,0 +1,8 @@
+@media (max-width: 354px){
+    .habilidad img{
+        width: 35px
+    }
+    .habilidad p{
+        font-size: 12px;
+    }
+}

@@ -7,7 +7,7 @@ export const Portafolio = () => {
     return (
         <ContentLayout>
             <h2>Portafolio</h2>
-            <h3>Proyectos que he realizado a lo largo de mi carrera como Developer</h3>
+            <h3 className="subtitle">Proyectos que he realizado a lo largo de mi carrera como Developer</h3>
             <div className="portafolio_items_container">
                 {
                     proyectos.map(proyecto => (
