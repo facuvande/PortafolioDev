@@ -1,5 +1,13 @@
 export const proyectos = [
     {
+        id: 'calendar-app',
+        title: 'CalendarApp',
+        description: 'Gestionador de eventos en calendario con Frontend en React y Backend en NodeJS',
+        technologies: ['react', 'bootstrap', 'nodejs', 'express', 'mongodb'],
+        linkDeploy: 'https://backend-calendar-bn9v.onrender.com/',
+        linkGithub: 'https://github.com/facuvande/backend-calendar'
+    },
+    {
         id: 'hero-app',
         title: 'HeroApp',
         description: 'Buscador de Heroes de Marvel y DC con proteccion de rutas y autenticacion con LocalStorage',
