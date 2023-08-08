@@ -1,5 +1,13 @@
 export const proyectos = [
     {
+        id: 'ecommerce-coderhouse',
+        title: 'Shoes Ecommerce',
+        description: 'Ecommerce de venta de zapatillas con Frontend en React y Backend en NodeJS',
+        technologies: ['html', 'css', 'javascript', 'nodejs', 'express', 'mongodb'],
+        linkDeploy: 'https://backendecommercecoderhouse-production.up.railway.app/login',
+        linkGithub: 'https://github.com/facuvande/BackendEcommerceCoderhouse'
+    },
+    {
         id: 'calendar-app',
         title: 'CalendarApp',
         description: 'Gestionador de eventos en calendario con Frontend en React y Backend en NodeJS',
